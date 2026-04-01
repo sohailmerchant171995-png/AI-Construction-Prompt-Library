@@ -40,15 +40,15 @@ Validate all task dependencies before execution
 Require project manager review before finalising schedule
 Allow manual overrides for real-world adjustments
 ---
-ITERATION (FOR HD MARKS)
-v1.0 (WEAK VERSION)
+ITERATION 
+v1.0
 Create a schedule for construction tasks based on subcontractor availability.
 Issues:
 Too vague
 No structure
 No constraints
 ---
-v1.1 (IMPROVED VERSION)
+v1.1
 You are a construction scheduler. Create a project schedule using tasks, subcontractors, and availability.
 Improvement:
 Role added
@@ -58,7 +58,7 @@ Dependencies
 Conflict handling
 Output structure
 ---
-v1.2 (FINAL HD VERSION)
+v1.2
 Added:
 Task dependencies
 Conflict detection
