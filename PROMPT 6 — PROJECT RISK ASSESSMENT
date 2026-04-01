@@ -43,15 +43,15 @@ Validate data inputs before analysis
 Combine AI output with expert judgement
 Regularly review and update risk assessments
 ---
-ITERATION (HD REQUIREMENT)
-v1.0 (WEAK VERSION)
+ITERATION 
+v1.0 
 Identify risks in a construction project.
 Issues:
 Too vague
 No structure
 No business value
 ---
-v1.1 (IMPROVED VERSION)
+v1.1 
 You are a construction analyst. Identify and evaluate project risks using project and subcontractor data.
 Improvement:
 Role added
@@ -61,7 +61,7 @@ Risk classification
 Severity levels
 Output format
 ---
-v1.2 (FINAL HD VERSION)
+v1.2 
 Added:
 Risk categories
 Likelihood threshold
