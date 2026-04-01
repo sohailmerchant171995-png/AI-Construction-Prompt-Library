@@ -1,0 +1,109 @@
+# PROMPT 1 — SUBCONTRACTOR SELECTION
+
+## Prompt Text (FINAL – v1.2)
+
+You are a construction project manager responsible for selecting the most suitable subcontractor for a residential project in Melbourne. Based on the following project requirements and subcontractor profiles, recommend the top 3 subcontractors.
+
+**Project details:**
+- Task type: [e.g., electrical, plumbing, carpentry]
+- Project budget: [amount]
+- Timeline: [start date – end date]
+- Location: [suburb in Melbourne]
+
+**Subcontractor data:**
+- Experience (years)
+- Past project ratings (1–5)
+- Cost estimate
+- Availability
+
+**Constraints:**
+- Must be available within project timeline
+- Must fit within budget
+- Prioritise subcontractors with rating >= 4
+
+**Output format:**
+- Table with columns: Subcontractor Name | Experience | Cost | Rating | Suitability Score (1–10)
+- Followed by a short recommendation explaining the best choice in 2–3 lines
+
+Do not generate assumptions beyond the provided data.
+
+---
+
+## Workflow Task
+
+Step 1 of subcontractor management workflow — triggered during project planning when selecting subcontractors for specific construction tasks.
+
+---
+
+## Problem Being Solved
+
+Project managers spend significant time manually reviewing subcontractor profiles, comparing cost, availability, and past performance. This leads to delays in decision-making and increases the risk of selecting suboptimal contractors.
+
+---
+
+## Automation Potential
+
+High — AI can automate 70–80% of the evaluation and comparison process by filtering and ranking subcontractors. Final decision remains with the project manager (human-in-the-loop), ensuring accountability and accuracy.
+
+---
+
+## Risks & Limitations
+
+- **Bias risk:** Over-reliance on ratings may overlook new but capable subcontractors
+- **Data quality risk:** Incomplete or outdated subcontractor data may affect recommendations
+- **Mitigation:**
+  - Validate input data before prompt execution
+  - Include human review before final selection
+  - Periodically update subcontractor database
+
+---
+
+## ITERATION (HD BOOST)
+
+### v1.0 (WEAK VERSION — WHAT MOST STUDENTS DO)
+
+Recommend the best subcontractor for a construction project based on cost, experience, and availability.
+
+**Problem:**
+- Too generic
+- No structure
+- No output format
+
+---
+
+### v1.1 (IMPROVED VERSION)
+
+You are a construction project manager. Based on project requirements, recommend suitable subcontractors considering cost, experience, and availability.
+
+**Improvement:**
+- Added role
+- Better clarity
+
+**Still missing:**
+- Constraints
+- Output structure
+- Business usability
+
+---
+
+### v1.2 (FINAL HD VERSION)
+
+**Added:**
+- Detailed inputs
+- Constraints
+- Output format (table)
+- No hallucination rule
+
+**Result:**
+- Consistent, business-ready output
+- Decision-support tool
+
+---
+
+## Iteration Log
+
+| Version | Change Made | Observed Effect | Lesson Learned |
+|---------|-------------|-----------------|----------------|
+| v1.0 | Basic instruction | Output too generic | Need role & context |
+| v1.1 | Added role & project context | Better relevance | Need constraints & format |
+| v1.2 | Added constraints + structured output | Consistent, usable results | Structured prompts improve reliability |
