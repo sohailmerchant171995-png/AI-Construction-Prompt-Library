@@ -1,0 +1,75 @@
+PROMPT 7 — COMPLIANCE CHECKING
+Prompt Text (FINAL – v1.2)
+You are a construction compliance officer responsible for ensuring that a residential construction project in Melbourne meets regulatory and safety standards. Review the project details and identify any compliance issues or violations.
+Project inputs:
+Project type: [e.g., residential build, renovation]
+Task list and current status
+Materials being used
+Site safety practices
+Regulatory context:
+Australian building codes and standards
+Workplace Health and Safety (WHS) requirements
+Constraints:
+Identify only compliance issues with clear evidence
+Classify issues as: Safety / Regulatory / Environmental
+Prioritise high-risk violations
+Do not assume missing information — flag it instead
+Output format:
+Table with columns: Issue | Category | Severity (Low/Medium/High) | Regulation Violated
+Highlight top 3 critical compliance risks
+Provide 2 corrective actions for each critical issue
+Include a short compliance status summary (Compliant / At Risk / Non-Compliant)
+Ensure all outputs align with Australian construction compliance standards.
+---
+Workflow Task
+Step 7 of subcontractor management workflow — triggered during project execution to ensure compliance with safety and regulatory standards.
+---
+Problem Being Solved
+Manual compliance checks are time-consuming and prone to oversight, increasing the risk of regulatory violations, safety incidents, and legal penalties. Lack of structured monitoring leads to inconsistent compliance practices.
+---
+Automation Potential
+Moderate to High — AI can automate 60–75% of compliance checking by identifying potential violations and flagging risks. Human oversight is essential for final validation and legal accountability.
+---
+Risks & Limitations
+Legal accuracy risk: AI may misinterpret complex regulations
+Incomplete data risk: Missing project details may lead to incorrect compliance assessment
+Liability risk: Over-reliance on AI could result in regulatory breaches
+Mitigation:
+Use AI as a support tool, not a decision-maker
+Ensure all outputs are reviewed by compliance professionals
+Regularly update regulatory references
+---
+ITERATION (HD REQUIREMENT)
+v1.0 (WEAK VERSION)
+Check if a construction project follows compliance rules.
+Issues:
+Too vague
+No structure
+No business usability
+---
+v1.1 (IMPROVED VERSION)
+You are a compliance officer. Identify compliance issues in a construction project based on safety and regulations.
+Improvement:
+Role added
+Better clarity
+Still missing:
+Classification
+Severity levels
+Output format
+---
+v1.2 (FINAL HD VERSION)
+Added:
+Risk classification (safety/regulatory/environmental)
+Severity levels
+Structured output
+Regulatory context (Australia-specific)
+Corrective actions
+Result:
+Governance-ready output
+Strong compliance support
+---
+Iteration Log
+Version	Change Made	Observed Effect	Lesson Learned
+v1.0	Basic instruction	Output vague and incomplete	Need role and context
+v1.1	Added role and regulatory focus	Improved relevance	Need classification and structure
+v1.2	Added categories, severity, and structured output	Clear and actionable compliance insights	Structured prompts improve governance outcomes
