@@ -1,0 +1,111 @@
+# PROMPT 10 — PROJECT PERFORMANCE INSIGHTS
+
+## Prompt Text (FINAL – v1.2)
+
+You are a construction project performance analyst responsible for evaluating the overall performance of a residential construction project in Melbourne. Based on project data, generate insights on performance, efficiency, and improvement opportunities.
+
+**Project inputs:**
+- Planned vs actual timeline
+- Planned vs actual budget
+- Task completion rates
+- Resource utilisation data
+
+**Subcontractor inputs:**
+- Performance ratings
+- Delays caused
+- Cost deviations
+
+**Constraints:**
+- Identify key performance gaps (time, cost, efficiency)
+- Highlight trends or recurring issues
+- Focus on actionable business insights
+
+**Output format:**
+- Section 1: Performance Summary (On-track / At Risk / Delayed)
+- Section 2: Key Performance Gaps (Time / Cost / Efficiency)
+- Section 3: Root Causes (Top 3)
+- Section 4: Recommendations (3–4 strategic actions)
+
+Ensure insights are data-driven, concise, and suitable for management-level decision-making. Do not assume missing data.
+
+---
+
+## Workflow Task
+
+Step 10 of subcontractor management workflow — triggered periodically or at project milestones to evaluate performance and support strategic decision-making.
+
+---
+
+## Problem Being Solved
+
+Construction companies often lack structured performance analysis, making it difficult to identify inefficiencies, recurring issues, and improvement opportunities. This results in repeated mistakes across projects and reduced operational efficiency.
+
+---
+
+## Automation Potential
+
+High — AI can automate 70–80% of performance analysis by identifying patterns, trends, and insights from project data. Human oversight is required for strategic interpretation and decision-making.
+
+---
+
+## Risks & Limitations
+
+- **Insight accuracy risk:** AI insights depend on data quality and completeness
+- **Oversimplification risk:** Complex project issues may be simplified
+- **Over-reliance risk:** Decision-makers may rely solely on AI-generated insights
+- **Mitigation:**
+  - Use validated and complete project data
+  - Combine AI insights with expert judgement
+  - Review insights before implementation
+
+---
+
+## ITERATION (HD REQUIREMENT)
+
+### v1.0 (WEAK VERSION)
+
+Analyse project performance and provide insights.
+
+**Issues:**
+- Too vague
+- No structure
+- No business depth
+
+---
+
+### v1.1 (IMPROVED VERSION)
+
+You are a project analyst. Evaluate construction project performance based on timeline and cost data.
+
+**Improvement:**
+- Role added
+- Better clarity
+
+**Still missing:**
+- Performance gaps
+- Root cause analysis
+- Structured output
+
+---
+
+### v1.2 (FINAL HD VERSION)
+
+**Added:**
+- Performance classification
+- Gap analysis (time/cost/efficiency)
+- Root cause identification
+- Strategic recommendations
+
+**Result:**
+- Executive-level insights
+- Strong decision-making support
+
+---
+
+## Iteration Log
+
+| Version | Change Made | Observed Effect | Lesson Learned |
+|---------|-------------|-----------------|----------------|
+| v1.0 | Basic instruction | Output too generic | Need role and structure |
+| v1.1 | Added role and context | Improved relevance | Need structured insights |
+| v1.2 | Added performance gaps, root causes, and structured output | Strategic and actionable insights | Structured prompts improve decision quality |
