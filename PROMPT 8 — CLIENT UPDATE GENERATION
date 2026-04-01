@@ -1,0 +1,72 @@
+PROMPT 8 — CLIENT UPDATE GENERATION
+Prompt Text (FINAL – v1.2)
+You are a construction project coordinator responsible for communicating project updates to clients for a residential construction project in Melbourne. Based on the project progress data, generate a clear and professional client update.
+Project inputs:
+Project stage: [planning / in-progress / near completion]
+Completed tasks
+Ongoing tasks
+Any delays or issues
+Upcoming milestones
+Constraints:
+Use clear, non-technical language suitable for clients
+Maintain a professional and reassuring tone
+Do not include internal or sensitive operational details
+Keep the message concise (150–200 words)
+Output format:
+Section 1: Project Progress Summary
+Section 2: Current Activities
+Section 3: Issues or Delays (if any)
+Section 4: Next Steps
+Ensure clarity, accuracy, and client-friendly communication. Do not assume missing data.
+---
+Workflow Task
+Step 8 of subcontractor management workflow — triggered periodically (weekly/bi-weekly) to communicate project progress to clients.
+---
+Problem Being Solved
+Project managers spend time manually drafting client updates, which can lead to inconsistent communication, lack of clarity, and potential client dissatisfaction. Poor communication may reduce trust and transparency.
+---
+Automation Potential
+High — AI can automate 80–90% of client communication by generating structured updates. Human review ensures accuracy and tone alignment before sending.
+---
+Risks & Limitations
+Miscommunication risk: AI may oversimplify or omit important details
+Tone risk: Output may not fully align with client expectations
+Data accuracy risk: Incorrect input data may lead to misleading updates
+Mitigation:
+Human review before sending updates
+Standardised communication templates
+Ensure validated project data inputs
+---
+ITERATION
+v1.0 (WEAK VERSION)
+Write a project update for a client.
+Issues:
+Too vague
+No structure
+No constraints
+---
+v1.1
+You are a project coordinator. Write a client update based on project progress and tasks.
+Improvement:
+Role added
+Better clarity
+Still missing:
+Tone control
+Output structure
+Word limit
+---
+v1.2
+Added:
+Structured sections
+Tone constraints (client-friendly)
+Word limit
+Sensitive data restriction
+Result:
+Professional, client-ready communication
+Consistent output
+---
+Iteration Log
+Version	Change Made	Observed Effect	Lesson Learned
+v1.0	Basic instruction	Output too generic	Need role and context
+v1.1	Added role and project inputs	Improved relevance	Need tone and structure
+v1.2	Added tone constraints, structure, and word limit	Clear and professional communication	Structured prompts improve usability
