@@ -1,0 +1,111 @@
+# PROMPT 9 — RESOURCE ALLOCATION
+
+## Prompt Text (FINAL – v1.2)
+
+You are a construction operations manager responsible for optimising resource allocation for a residential construction project in Melbourne. Based on project requirements, subcontractor availability, and resource constraints, allocate resources efficiently across tasks.
+
+**Project inputs:**
+- Task list and priorities
+- Task durations
+- Project timeline
+
+**Resource inputs:**
+- Subcontractors and their specialisations
+- Availability schedules
+- Equipment/resources available (if applicable)
+
+**Constraints:**
+- Assign resources only to relevant tasks based on expertise
+- Avoid over-allocation of subcontractors
+- Minimise idle time and maximise utilisation
+- Prioritise critical tasks impacting project timeline
+
+**Output format:**
+- Table with columns: Task | Assigned Resource | Allocation Period | Utilisation (%)
+- Highlight any resource conflicts or underutilisation
+- Identify top 2 optimisation opportunities
+- Provide 2–3 recommendations to improve efficiency
+
+Do not assume missing data. Flag incomplete inputs.
+
+---
+
+## Workflow Task
+
+Step 9 of subcontractor management workflow — triggered during planning and execution to optimise the use of subcontractors and resources across the project.
+
+---
+
+## Problem Being Solved
+
+Inefficient allocation of subcontractors and resources leads to delays, increased costs, and underutilisation. Manual allocation lacks optimisation, resulting in resource conflicts and idle time.
+
+---
+
+## Automation Potential
+
+High — AI can automate 75–85% of resource allocation decisions by analysing availability, task requirements, and constraints. Human oversight is required to adjust for real-world conditions.
+
+---
+
+## Risks & Limitations
+
+- **Over-optimisation risk:** AI may prioritise efficiency over practical site constraints
+- **Data accuracy risk:** Incomplete availability data may lead to conflicts
+- **Rigidity risk:** AI-generated plans may lack flexibility for sudden changes
+- **Mitigation:**
+  - Allow manual overrides
+  - Validate resource availability data
+  - Regularly update allocations based on real-time conditions
+
+---
+
+## ITERATION (HD REQUIREMENT)
+
+### v1.0 (WEAK VERSION)
+
+Allocate resources for construction tasks.
+
+**Issues:**
+- Too vague
+- No structure
+- No business value
+
+---
+
+### v1.1 (IMPROVED VERSION)
+
+You are a construction manager. Allocate subcontractors to tasks based on availability and expertise.
+
+**Improvement:**
+- Role added
+- Better clarity
+
+**Still missing:**
+- Constraints
+- Optimisation logic
+- Output structure
+
+---
+
+### v1.2 (FINAL HD VERSION)
+
+**Added:**
+- Constraints (avoid over-allocation, maximise utilisation)
+- Structured output
+- Conflict identification
+- Optimisation insights
+
+**Result:**
+- Efficient, decision-ready allocation plan
+- Strong operational value
+
+---
+
+## Iteration Log
+
+| Version | Change Made | Observed Effect | Lesson Learned |
+|---------|-------------|-----------------|----------------|
+| v1.0 | Basic instruction | Output vague and unclear | Need role and context |
+| v1.1 | Added role and inputs | Improved relevance | Need optimisation constraints |
+| v1.2 | Added constraints, structured output, and optimisation insights | Clear and efficient allocation | Structured prompts improve operational outcomes |
