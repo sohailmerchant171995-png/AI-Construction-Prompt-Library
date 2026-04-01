@@ -37,15 +37,15 @@ Maintain human review for all critical reports
 Ensure standardised report formats
 Use AI as a support tool, not a replacement
 ---
-ITERATION (HD REQUIREMENT)
-v1.0 (WEAK VERSION)
+ITERATION
+v1.0 
 Summarise a construction site report and identify issues.
 Issues:
 Too vague
 No structure
 No business usability
 ---
-v1.1 (IMPROVED VERSION)
+v1.1 
 You are a site analyst. Summarise the report and identify issues and risks.
 Improvement:
 Role added
@@ -55,7 +55,7 @@ Classification
 Output structure
 Actionable insights
 ---
-v1.2 (FINAL HD VERSION)
+v1.2
 Added:
 Issue classification
 Risk severity levels
