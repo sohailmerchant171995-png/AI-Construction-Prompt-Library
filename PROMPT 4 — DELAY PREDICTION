@@ -1,5 +1,5 @@
 PROMPT 4 — DELAY PREDICTION
-Prompt Text (FINAL – v1.2)
+Prompt Text
 You are a construction project risk analyst responsible for identifying potential delays in a residential construction project in Melbourne. Based on project progress data, task schedules, and subcontractor performance, predict possible delays and their causes.
 Project inputs:
 Project timeline (planned vs actual progress)
@@ -42,15 +42,15 @@ Use validated and up-to-date project data
 Combine AI predictions with expert judgement
 Regularly update inputs for improved accuracy
 ---
-ITERATION (HD REQUIREMENT)
-v1.0 (WEAK VERSION)
+ITERATION
+v1.0
 Predict delays in a construction project based on tasks and subcontractors.
 Issues:
 Too vague
 No structure
 No actionable output
 ---
-v1.1 (IMPROVED VERSION)
+v1.1 
 You are a construction analyst. Predict possible project delays using task progress and subcontractor performance.
 Improvement:
 Role added
@@ -60,7 +60,7 @@ Risk thresholds
 Output structure
 Mitigation insights
 ---
-v1.2 (FINAL HD VERSION)
+v1.2
 Added:
 Risk probability threshold
 Cause identification
