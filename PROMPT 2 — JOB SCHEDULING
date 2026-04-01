@@ -1,0 +1,113 @@
+# PROMPT 2 — JOB SCHEDULING
+
+## Prompt Text (FINAL – v1.2)
+
+You are a construction project scheduler responsible for planning subcontractor tasks for a residential construction project in Melbourne. Based on the project timeline, subcontractor availability, and task dependencies, generate an optimized job schedule.
+
+**Project inputs:**
+- Project start date: [date]
+- Project end date: [date]
+- Tasks list: [e.g., excavation, electrical, plumbing, framing]
+- Task durations (in days): [list]
+- Task dependencies: [e.g., plumbing after framing]
+
+**Subcontractor inputs:**
+- Subcontractor name
+- Availability dates
+- Specialisation (task type)
+
+**Constraints:**
+- Tasks must follow dependency order
+- Assign only qualified subcontractors
+- Avoid scheduling conflicts (no overlap for same subcontractor)
+- Minimise project delays and idle time
+
+**Output format:**
+- Table with columns: Task | Assigned Subcontractor | Start Date | End Date | Status (Scheduled/Conflict)
+- Highlight any scheduling conflicts or delays
+- Provide a 2–3 line summary explaining schedule efficiency and risks
+
+Do not assume missing data. Flag any incomplete inputs.
+
+---
+
+## Workflow Task
+
+Step 2 of subcontractor management workflow — triggered after subcontractor selection to allocate tasks and create a project schedule.
+
+---
+
+## Problem Being Solved
+
+Manual scheduling of subcontractors is complex and time-consuming, often resulting in task overlaps, delays, and inefficient resource utilisation. Poor scheduling leads to increased project costs and missed deadlines.
+
+---
+
+## Automation Potential
+
+Very High — AI can automate 80–90% of scheduling logic by organising tasks, assigning subcontractors, and identifying conflicts. Human oversight is required to validate feasibility and handle exceptions.
+
+---
+
+## Risks & Limitations
+
+- **Dependency errors:** Incorrect task dependencies may lead to flawed schedules
+- **Data gaps:** Missing subcontractor availability can cause inaccurate assignments
+- **Over-optimisation risk:** AI may prioritise efficiency over practical site constraints
+- **Mitigation:**
+  - Validate all task dependencies before execution
+  - Require project manager review before finalising schedule
+  - Allow manual overrides for real-world adjustments
+
+---
+
+## ITERATION (FOR HD MARKS)
+
+### v1.0 (WEAK VERSION)
+
+Create a schedule for construction tasks based on subcontractor availability.
+
+**Issues:**
+- Too vague
+- No structure
+- No constraints
+
+---
+
+### v1.1 (IMPROVED VERSION)
+
+You are a construction scheduler. Create a project schedule using tasks, subcontractors, and availability.
+
+**Improvement:**
+- Role added
+- Slightly clearer
+
+**Still missing:**
+- Dependencies
+- Conflict handling
+- Output structure
+
+---
+
+### v1.2 (FINAL HD VERSION)
+
+**Added:**
+- Task dependencies
+- Conflict detection
+- Constraints
+- Structured output (table)
+- Risk flagging
+
+**Result:**
+- Real-world usable schedule
+- Decision-support tool
+
+---
+
+## Iteration Log
+
+| Version | Change Made | Observed Effect | Lesson Learned |
+|---------|-------------|-----------------|----------------|
+| v1.0 | Basic instruction | Output unclear and incomplete | Need role and context |
+| v1.1 | Added role and inputs | More relevant scheduling | Need constraints and structure |
+| v1.2 | Added dependencies, constraints, and output format | Consistent and actionable schedule | Structured prompts improve reliability |
