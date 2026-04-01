@@ -37,7 +37,7 @@ Validate input data before prompt execution
 Include human review before final selection
 Periodically update subcontractor database
 ---
-ITERATION (HD BOOST)
+ITERATION
 v1.0 (WEAK VERSION — WHAT MOST STUDENTS DO)
 Recommend the best subcontractor for a construction project based on cost, experience, and availability.
 Problem:
@@ -45,7 +45,7 @@ Too generic
 No structure
 No output format
 ---
-v1.1 (IMPROVED VERSION)
+v1.1 
 You are a construction project manager. Based on project requirements, recommend suitable subcontractors considering cost, experience, and availability.
 Improvement:
 Added role
@@ -55,7 +55,7 @@ Constraints
 Output structure
 Business usability
 ---
-v1.2 (FINAL HD VERSION)
+v1.2
 Added:
 Detailed inputs
 Constraints
