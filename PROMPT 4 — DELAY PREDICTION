@@ -1,0 +1,78 @@
+PROMPT 4 — DELAY PREDICTION
+Prompt Text (FINAL – v1.2)
+You are a construction project risk analyst responsible for identifying potential delays in a residential construction project in Melbourne. Based on project progress data, task schedules, and subcontractor performance, predict possible delays and their causes.
+Project inputs:
+Project timeline (planned vs actual progress)
+Task list with completion status
+Task dependencies
+Current delays (if any)
+Subcontractor inputs:
+Task assigned
+Performance rating (1–5)
+Past delay history
+Availability issues
+External factors:
+Weather conditions (if available)
+Supply chain delays (if applicable)
+Constraints:
+Identify delays only where risk probability >= 60%
+Link each delay to a specific cause (e.g., subcontractor, dependency, external factor)
+Prioritise high-impact delays affecting project timeline
+Output format:
+Table with columns: Task | Delay Risk (%) | Cause | Impact Level (Low/Medium/High)
+Highlight top 3 critical delay risks
+Provide 2–3 mitigation recommendations for each critical risk
+Do not generate assumptions beyond the provided data. Flag missing inputs.
+---
+Workflow Task
+Step 4 of subcontractor management workflow — triggered during project execution to monitor progress and identify potential delays before they occur.
+---
+Problem Being Solved
+Construction projects frequently experience delays due to poor visibility into task dependencies, subcontractor performance, and external risks. These delays are often identified too late, resulting in cost overruns and missed deadlines.
+---
+Automation Potential
+High — AI can automate 75–85% of delay risk analysis by identifying patterns and predicting potential issues early. Human oversight is required to validate predictions and implement mitigation strategies.
+---
+Risks & Limitations
+Prediction accuracy risk: AI predictions may be unreliable if input data is incomplete or outdated
+Over-reliance risk: Decision-makers may depend too heavily on AI predictions
+External uncertainty: Factors like weather or supply chain disruptions may not be fully predictable
+Mitigation:
+Use validated and up-to-date project data
+Combine AI predictions with expert judgement
+Regularly update inputs for improved accuracy
+---
+ITERATION (HD REQUIREMENT)
+v1.0 (WEAK VERSION)
+Predict delays in a construction project based on tasks and subcontractors.
+Issues:
+Too vague
+No structure
+No actionable output
+---
+v1.1 (IMPROVED VERSION)
+You are a construction analyst. Predict possible project delays using task progress and subcontractor performance.
+Improvement:
+Role added
+Slight context
+Still missing:
+Risk thresholds
+Output structure
+Mitigation insights
+---
+v1.2 (FINAL HD VERSION)
+Added:
+Risk probability threshold
+Cause identification
+Impact classification
+Structured output
+Mitigation recommendations
+Result:
+Predictive + actionable insights
+Strong business decision support
+---
+Iteration Log
+Version	Change Made	Observed Effect	Lesson Learned
+v1.0	Basic instruction	Output vague and not actionable	Need role and context
+v1.1	Added role and inputs	Better relevance	Need structured output and thresholds
+v1.2	Added risk thresholds, structured output, and mitigation insights	Actionable and decision-ready output	Structured prompts improve predictive reliability
