@@ -39,15 +39,15 @@ Use AI as a support tool, not a decision-maker
 Ensure all outputs are reviewed by compliance professionals
 Regularly update regulatory references
 ---
-ITERATION (HD REQUIREMENT)
-v1.0 (WEAK VERSION)
+ITERATION
+v1.0
 Check if a construction project follows compliance rules.
 Issues:
 Too vague
 No structure
 No business usability
 ---
-v1.1 (IMPROVED VERSION)
+v1.1
 You are a compliance officer. Identify compliance issues in a construction project based on safety and regulations.
 Improvement:
 Role added
@@ -57,7 +57,7 @@ Classification
 Severity levels
 Output format
 ---
-v1.2 (FINAL HD VERSION)
+v1.2
 Added:
 Risk classification (safety/regulatory/environmental)
 Severity levels
