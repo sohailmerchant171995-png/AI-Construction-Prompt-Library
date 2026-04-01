@@ -40,15 +40,15 @@ Require validation of all cost inputs
 Include contingency buffer (10–15%)
 Final approval by project manager
 ---
-ITERATION (HD REQUIREMENT)
-v1.0 (WEAK VERSION)
+ITERATION 
+v1.0 
 Estimate the cost of a construction project based on tasks and labour.
 Issues:
 Too vague
 No structure
 No business usability
 ---
-v1.1 (IMPROVED VERSION)
+v1.1 
 You are a construction cost estimator. Estimate total project cost using tasks and subcontractor labour inputs.
 Improvement:
 Role added
@@ -58,7 +58,7 @@ Constraints
 Cost breakdown
 Business insights
 ---
-v1.2 (FINAL HD VERSION)
+v1.2 
 Added:
 Structured inputs
 Budget constraints
